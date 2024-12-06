@@ -18,7 +18,14 @@ export const Hero = () => {
                     transition={{ duration: 1.5 }}
                     className="flex flex-col justify-center items-center"
                 >
-                    <img src={headshot} className='z-10 rounded-full w-48 mb-12'/>
+                    <ShineBorder
+                        color={'#ff0055'}
+                        borderWidth={2}
+                        borderRadius={100}
+                        className="flex justify-center items-center bg-transparent mb-12 p-0 z-10" 
+                    >
+                        <img src={headshot} className='rounded-full w-48'/>
+                    </ShineBorder>
                     <h1 className="z-10 whitespace-pre-wrap text-center text-6xl font-bold tracking-wider text-primaryAccent">Bailey Henderson</h1>
                     <div className="flex gap-x-2 justify-center mt-2">
                     <HyperText
