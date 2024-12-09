@@ -11,7 +11,7 @@ import {
 
 export const Projects = () => {
     return(
-        <section className="py-10 xl:py-16 px-4 md:px-12 lg:px-32 overflow-hidden bg-[url('/src/assets/slanted-gradient.svg')] bg-center bg-cover bg-no-repeat">
+        <section className="py-10 xl:py-16 px-4 md:px-12 lg:px-32 overflow-hidden bg-[url('/slanted-gradient.svg')] bg-center bg-cover bg-no-repeat">
             <motion.h1 
                 initial={{ y: -50, opacity: 0 }}
                 whileInView={{ y: 0, opacity: 1 }}
@@ -21,7 +21,7 @@ export const Projects = () => {
             </motion.h1>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14">
                 {projects.map(item => (
-                    <div className="p-6 overflow-hidden rounded-3xl z-10 bg-gradient-to-b from-neonBlue/10 to-primary border border-neonBlue/30 h-full hover:scale-105 hover:bg-neonBlue/20 transition-all duration-300 ease-in-out backdrop-blur-md">
+                    <div className="p-6 overflow-hidden rounded-3xl z-10 bg-gradient-to-b from-neonBlue/10 to-primary border border-neonBlue/30 hover:scale-105 hover:bg-neonBlue/20 transition-all duration-300 ease-in-out backdrop-blur-md">
                         <img src={item.img} className="rounded-lg w-full"/>
                         <h1 className="text-2xl mt-4 font-bold tracking-wider text-primaryAccent/85">{item.title}</h1>
                         <div className="my-6">
