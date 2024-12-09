@@ -11,7 +11,7 @@ import { IconMapPin, IconBrandGithub, IconBrandLinkedin, IconFileCv } from '@tab
 export const Hero = () => {
     return(
         <section className="w-full bg-primary">
-            <div className="relative flex h-screen w-full flex-col items-center justify-center overflow-hidden md:shadow-xl">
+            <div className="relative flex h-screen w-full flex-col items-center justify-center overflow-hidden">
                 <motion.div
                     initial={{ y: -40, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
