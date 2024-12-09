@@ -9,11 +9,11 @@ export const Contact = () => {
                 initial={{ y: -50, opacity: 0 }}
                 whileInView={{ y: 0, opacity: 1 }}
                 transition={{ duration: 1 }}
-                className="text-center mb-12">
+                className="text-center mb-6 lg:mb-12">
                     <h1 className="text-5xl font-bold tracking-wider text-primaryAccent/85 mb-2">Contact</h1>
                     <p className="text-sm tracking-wider text-primaryAccent/85">Please feel free to contact me via Email or LinkedIn!</p>
             </motion.div>
-            <div className="flex justify-center items-center gap-x-4">
+            <div className="flex flex-col lg:flex-row justify-center items-center gap-x-4 gap-y-4">
                 <a 
                     href="mailto:hen.baileyk@gmail.com" 
                     aria-label="email Bailey Henderson"
