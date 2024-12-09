@@ -23,7 +23,9 @@ export default {
   		},
   		animation: {
   			ripple: 'ripple var(--duration,4s) ease calc(var(--i, 0)*.2s) infinite',
-  			shine: 'shine var(--duration) infinite linear'
+  			shine: 'shine var(--duration) infinite linear',
+  			'accordion-down': 'accordion-down 0.2s ease-out',
+  			'accordion-up': 'accordion-up 0.2s ease-out'
   		},
   		keyframes: {
   			ripple: {
@@ -43,6 +45,22 @@ export default {
   				},
   				to: {
   					'background-position': '0% 0%'
+  				}
+  			},
+  			'accordion-down': {
+  				from: {
+  					height: '0'
+  				},
+  				to: {
+  					height: 'var(--radix-accordion-content-height)'
+  				}
+  			},
+  			'accordion-up': {
+  				from: {
+  					height: 'var(--radix-accordion-content-height)'
+  				},
+  				to: {
+  					height: '0'
   				}
   			}
   		}
