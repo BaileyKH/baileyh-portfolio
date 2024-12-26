@@ -1,5 +1,8 @@
 # Bailey's Updated Front-End Development Portfolio
 
+## About Me:
+Hey there! My name is Bailey Henderson and I am a passionate Front-End React Developer who specializes in bringing creative concepts to life through clean, efficient, and accessible code.
+
 ## Built with:
 - TypeScript
 - React
