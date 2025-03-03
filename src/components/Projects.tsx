@@ -25,6 +25,7 @@ export const Projects = () => {
                         <img src={item.img} className="rounded-lg w-full"/>
                         <h1 className="text-2xl mt-4 font-bold tracking-wider text-primaryAccent/85">{item.title}</h1>
                         <div className="my-6">
+                            {item.code && 
                             <a 
                                 href={item.code} 
                                 target="_blank" 
@@ -33,6 +34,7 @@ export const Projects = () => {
                             >
                                 Code
                             </a>
+                            }
                             <a 
                                 href={item.demo} 
                                 target="_blank" 

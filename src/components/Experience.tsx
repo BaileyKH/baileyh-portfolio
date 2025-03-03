@@ -12,6 +12,22 @@ export const Experience = () => {
                     Experience
             </motion.h1>
             <div className="w-full flex flex-col lg:flex-row justify-center gap-x-6 gap-y-4">
+            <motion.div 
+                    initial={{ x: -180, opacity: 0 }}
+                    whileInView={{ x: 0, opacity: 1 }}
+                    transition={{ duration: 1.5 }}
+                    className="w-full lg:w-1/2 flex flex-col items-center rounded-3xl p-3 lg:p-6 bg-gradient-to-b from-neonPink/10 to-primary border border-neonPink/30">
+                    <h2 className="text-lg lg:text-3xl font-bold text-primaryAccent/85 tracking-wider text-center">Software Engineer Intern</h2>
+                    <p className="text-base lg:text-xl text-primaryAccent/85 mt-1 tracking-wide">Protecly</p>
+                    <ul className="list-disc px-10 mt-4 lg:mt-8">
+                        <li className="leading-7 tracking-wide text-primaryAccent/85">Architected and deployed the front-end codebase using React and Tailwind CSS, establishing the foundational
+                        repository that became the production framework</li>
+                        <li className="my-4 leading-7 tracking-wide text-primaryAccent/85">Created and integrated multiple high-visibility pages including Terms & Conditions, Privacy Policy, Report a Phish
+                        feature, and a dynamic RSS-powered Articles page</li>
+                        <li className="leading-7 tracking-wide text-primaryAccent/85">Implemented performance optimizations and animations for the landing page, resulting in enhanced user
+                        engagement and visual appeal</li>
+                    </ul>
+                </motion.div>
                 <motion.div 
                     initial={{ x: -180, opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
