@@ -1,5 +1,6 @@
 import protecly from '/src/assets/projects/protecly.png'
 import devfusion from '/src/assets/projects/devfusion-img.png'
+import snap from '/src/components/snapai.png'
 import ns from '/src/assets/projects/nature-shot.png'
 import unknown from '/src/assets/projects/unknown.png'
 
@@ -28,6 +29,17 @@ export const projects = [
     },
     {
         id: 3,
+        title: 'SnapAI',
+        img: snap,
+        description: 'SnapAI is a development tool that uses ai to transform the front-end development workflow. With a sleek and minimalist interface developers can simply describe the UI component they need in natural language, and the application instantly generates a fully-functional React component with Tailwind CSS styling. The tool provides real-time previews alongside syntax-highlighted code that can be copied with a single click, eliminating repetitive coding tasks and allowing developers to focus on solving unique problems rather than implementing standard UI elements.',
+        code: 'https://github.com/BaileyKH/snap',
+        demo: 'https://snapai-component.vercel.app/',
+        language: 'TypeScript',
+        framework: 'React',
+        style: 'Tailwind'
+    },
+    {
+        id: 4,
         title: 'Nature Shot',
         img: ns,
         description: 'Nature Shot is a sleek and responsive photography portfolio website built with React. This project showcases stunning nature photography, emphasizing clean design and seamless user experience. This website also features form validation on the contact page to ensure reliable communication.',
@@ -38,7 +50,7 @@ export const projects = [
         style: 'Tailwind'
     },
     {
-        id: 4,
+        id: 5,
         title: 'The Unknown',
         img: unknown,
         description: 'The Unknown is an innovative e-commerce platform specializing in camping equipment. Users can explore various product pages, detailed product descriptions, campsite information, and a shopping cart. The platform features advanced filtering options to categorize products effectively. Additionally, it integrates the NPS API, enabling users to search for campsites by their preferred state.',
