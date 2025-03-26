@@ -1,6 +1,6 @@
 import protecly from '/src/assets/projects/protecly.png'
 import devfusion from '/src/assets/projects/devfusion-img.png'
-import snap from '/src/components/snapai.png'
+import snap from '/src/assets/projects/snapai.png'
 import ns from '/src/assets/projects/nature-shot.png'
 import unknown from '/src/assets/projects/unknown.png'
 
