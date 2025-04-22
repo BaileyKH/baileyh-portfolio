@@ -48,7 +48,7 @@ export const Hero = () => {
                         borderWidth={2} 
                         className="flex justify-center items-center bg-transparent mt-8">
                             <a href="https://github.com/BaileyKH" target="_blank"><IconBrandGithub stroke={1} className="w-10 h-10 text-primaryAccent hover:text-neonPink transition-colors duration-300 ease-in-out"/></a>
-                            <a href="www.linkedin.com/in/baileykh" target="_blank"><IconBrandLinkedin stroke={1} className="w-10 h-10 mx-4 text-primaryAccent hover:text-neonPink transition-colors duration-300 ease-in-out"/></a>
+                            <a href="https://www.linkedin.com/in/baileykh/" target="_blank"><IconBrandLinkedin stroke={1} className="w-10 h-10 mx-4 text-primaryAccent hover:text-neonPink transition-colors duration-300 ease-in-out"/></a>
                             <a href='/src/assets/Bailey_Henderson_Resume.docx.pdf' download="Bailey Henderson's Resume"><IconFileCv stroke={1} className="w-10 h-10 text-primaryAccent hover:text-neonPink transition-colors duration-300 ease-in-out"/></a>
                     </ShineBorder>
                 </motion.div>
