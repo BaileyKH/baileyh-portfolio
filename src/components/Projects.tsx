@@ -35,6 +35,7 @@ export const Projects = () => {
                                 Code
                             </a>
                             }
+                            { item.demo &&
                             <a 
                                 href={item.demo} 
                                 target="_blank" 
@@ -43,6 +44,7 @@ export const Projects = () => {
                             >
                                 Demo
                             </a>
+                            }
                         </div>
                         <h2 className="text-sm tracking-wide text-primaryAccent/85">Built using: {item.language}, {item.framework}, {item.style}</h2>
                         <Accordion type="single" collapsible className="w-full">

@@ -1,4 +1,5 @@
 import protecly from '/src/assets/projects/protecly.png'
+import ravn from '/src/assets/projects/ravn.png'
 import devfusion from '/src/assets/projects/devfusion-img.png'
 import snap from '/src/assets/projects/snapai.png'
 import ns from '/src/assets/projects/nature-shot.png'
@@ -6,7 +7,7 @@ import unknown from '/src/assets/projects/unknown.png'
 
 export const projects = [
     {
-        id: 2,
+        id: 1,
         title: 'Protecly',
         img: protecly,
         description: 'Protecly is a cutting-edge cybersecurity platform dedicated to ensuring individuals and organizations can combat the growing threat of cyber attacks. The mission is to enhance cybersecurity awareness and provide reliable tools to identify and prevent phishing attempts, helping users stay one step ahead of threat actors',
@@ -18,6 +19,17 @@ export const projects = [
     },
     {
         id: 2,
+        title: 'Ravn',
+        img: ravn,
+        description: "RAVN is a sleek and minimal mobile app built with React Native that helps users discover food spots either near their current location (for when you need food right now) or along a driving route (so you don't need to go backwards when your destination is forwards...and you're STARVING)",
+        code: 'https://github.com/BaileyKH/ravn',
+        demo: '',
+        language: 'JavaScript',
+        framework: 'React Native',
+        style: 'Tailwind'
+    },
+    {
+        id: 3,
         title: 'DevFusion',
         img: devfusion,
         description: 'DevFusion is a collaboration platform designed to streamline project management and enhance teamwork for developers. It offers features such as real-time chat, transparent task management, GitHub integration for viewing commits and change logs, and a secure invite system for managing contributors. With an intuitive and responsive design optimized for all devices, DevFusion ensures a seamless user experience, making it a powerful tool for efficient and effective collaboration.',
