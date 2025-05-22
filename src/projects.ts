@@ -23,7 +23,7 @@ export const projects = [
         img: ravn,
         description: "RAVN is a sleek and minimal mobile app built with React Native that helps users discover food spots either near their current location (for when you need food right now) or along a driving route (so you don't need to go backwards when your destination is forwards...and you're STARVING)",
         code: 'https://github.com/BaileyKH/ravn',
-        demo: '',
+        demo: 'https://ravn-one.vercel.app/',
         language: 'JavaScript',
         framework: 'React Native',
         style: 'Tailwind'
