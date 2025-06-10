@@ -29,7 +29,7 @@ export const Hero = () => {
                     <h1 className="z-10 whitespace-pre-wrap text-center text-6xl font-bold tracking-wider text-primaryAccent">Bailey Henderson</h1>
                     <div className="flex gap-x-2 justify-center mt-2">
                     <HyperText
-                        text="Front-End"
+                        text="Full Stack"
                         duration={1400}
                         className="text-2xl text-neonPink font-semibold"
                     ></HyperText>
@@ -49,7 +49,7 @@ export const Hero = () => {
                         className="flex justify-center items-center bg-transparent mt-8">
                             <a href="https://github.com/BaileyKH" target="_blank"><IconBrandGithub stroke={1} className="w-10 h-10 text-primaryAccent hover:text-neonPink transition-colors duration-300 ease-in-out"/></a>
                             <a href="https://www.linkedin.com/in/baileykh/" target="_blank"><IconBrandLinkedin stroke={1} className="w-10 h-10 mx-4 text-primaryAccent hover:text-neonPink transition-colors duration-300 ease-in-out"/></a>
-                            <a href='/src/assets/Bailey_Henderson_Resume.docx.pdf' download="Bailey Henderson's Resume"><IconFileCv stroke={1} className="w-10 h-10 text-primaryAccent hover:text-neonPink transition-colors duration-300 ease-in-out"/></a>
+                            <a href='/src/assets/Bailey_Henderson_Resume.pdf' download="Bailey Henderson's Resume"><IconFileCv stroke={1} className="w-10 h-10 text-primaryAccent hover:text-neonPink transition-colors duration-300 ease-in-out"/></a>
                     </ShineBorder>
                 </motion.div>
                 <Ripple 
